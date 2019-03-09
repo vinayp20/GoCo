@@ -1,0 +1,14 @@
+{
+  "name": "calhob",
+  "version": "1.0.0",
+  "description": "Rest api to get appropriate gocomics link",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "kazama",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
