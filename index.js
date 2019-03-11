@@ -6,7 +6,7 @@ app.get("/url/:param", (req, res, next) => {
 	var dump;
 	var resultsArray = new Array();
 	const fs = require('fs');
-	fs.readFile('quotes.txt', function(err, data) {
+	fs.readFile('allQuotes.txt', function(err, data) {
 
 		if(err) {
 			console.log("Error with the file");
